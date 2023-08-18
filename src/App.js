@@ -3,7 +3,9 @@ import './App.css';
 
 function App() {
 
-  
+  const rsaPublicKey = "-----BEGIN PUBLIC KEY-----MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAIJ4EX/2tsyp61pGoWncxCkEkkoTUXek+Nb5DVVp5o9sOgcKbLHkxdn/GfY3e8uUqJ7B6q4Z4Om9ML3LDPczMRECAwEAAQ==-----END PUBLIC KEY-----";
+  const googleApiUrl = "https://maps.google.com/maps/api/js?key=";
+  const googleApiKey = "AIzaSyBTp0SoH99Vc8u-jpoMfatw0mHck0NtgTs";
 function isFooBar(param) {
     if (param.foo && param.foo === "bar") {
         return true;
