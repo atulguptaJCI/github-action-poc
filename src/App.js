@@ -8,20 +8,11 @@ function App() {
   const googleApiKey = "AIzaSyBTp0SoH99Vc8u-jpoMfatw0mHck0NtgTs";
 
   const abc = 121999999999999999999999999999999999999 * 999999999999999999999999999999999999999;
-  console.log(abc)
-function isFooBar(param) {
-    if (param.foo && param.foo === "bar") {
-        return true;
-    }
-    return false;
-}
 
-let someObject = {
-    foo: "bar"
-}
-
-if (isFooBar(someObject)) {
-    someObject.foo = "done"
+  
+function endWith(x,y) {
+    console.log(abc)
+    return x.lastIndexOf(y) === x.length-y.length;
 }
 
 console.log(someObject.foo);
